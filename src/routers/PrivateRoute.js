@@ -17,7 +17,7 @@ export const PrivateRoute = ({
                 
                 ( isAuthenticated )
                 ? <Component {...props} />
-                : <Redirect to="/login" />
+                : <Redirect to="https://jomavazquez.github.io/react-router-spa/login" />
             )}
         />
 
