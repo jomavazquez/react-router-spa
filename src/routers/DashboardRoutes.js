@@ -12,12 +12,12 @@ export const DashboardRoutes = () => {
             <Navbar />
             <div className="container mt-5">
                 <Switch>
-                    <Route exact path="https://jomavazquez.github.io/react-router-spa/marvel" component={ MarvelScreen } />
-                    <Route exact path="https://jomavazquez.github.io/react-router-spa/hero/:heroid" component={ HeroScreen } />
-                    <Route exact path="https://jomavazquez.github.io/react-router-spa/dc" component={ DcScreen } />
-                    <Route exact path="https://jomavazquez.github.io/react-router-spa/search" component={ SearchScreen } />
+                    <Route exact path="/marvel" component={ MarvelScreen } />
+                    <Route exact path="/hero/:heroid" component={ HeroScreen } />
+                    <Route exact path="/dc" component={ DcScreen } />
+                    <Route exact path="/search" component={ SearchScreen } />
 
-                    <Redirect to="https://jomavazquez.github.io/react-router-spa/marvel" />
+                    <Redirect to="/marvel" />
                 </Switch>
             </div>
         </>

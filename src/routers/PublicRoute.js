@@ -15,7 +15,7 @@ export const PublicRoute = ({
                 
                 ( !isAuthenticated )
                 ? <Component {...props} />
-                : <Redirect to="https://jomavazquez.github.io/react-router-spa/" />
+                : <Redirect to="/" />
             )}
         />
 
