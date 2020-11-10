@@ -1,6 +1,8 @@
 # DEMO
 
-https://jomavazquez.github.io/react-router-spa/
+Login not implemented, this is no the purpose of this exercise. Routers, private routers, query strings.
+
+https://react-router-spa.josemariavazquez.com/
 
 # Getting Started with Create React App
 
