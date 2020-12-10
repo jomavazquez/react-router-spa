@@ -17,13 +17,13 @@ export const AppRouter = () => {
 
                     <PublicRoute
                         exact
-                        path="./login" 
+                        path="/login" 
                         component={ LoginScreen } 
                         isAuthenticated={ user.logged }
                     />
                     
                     <PrivateRoute 
-                        path="./" 
+                        path="/" 
                         component={  DashboardRoutes } 
                         isAuthenticated={ user.logged }
                     />

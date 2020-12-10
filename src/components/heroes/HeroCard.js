@@ -12,7 +12,7 @@ export const HeroCard = ( {
         <div className="card mt-1 mb-3 animate__animated animate__fadeIn" style={ { maxWidth: 540 } }>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={ `/assets/heroes/${ id }.jpg` } className="card-img" alt={ superhero } />
+                    <img src={ `./assets/heroes/${ id }.jpg` } className="card-img" alt={ superhero } />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
