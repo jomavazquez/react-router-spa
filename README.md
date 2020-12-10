@@ -2,7 +2,7 @@
 
 Login not implemented, this is no the purpose of this exercise. Routers, private routers, query strings.
 
-https://react-router-spa.josemariavazquez.com/
+https://react-router-spa.vercel.app
 
 # Getting Started with Create React App
 
